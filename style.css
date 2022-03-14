@@ -69,7 +69,7 @@
     justify-content: center;
     align-items: center;
     gap: 12px;
-    padding: 0 0 10% 0
+    padding: 0 0 5% 0
   }
 
   header{
@@ -115,7 +115,8 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px
+    padding: 10px;
+    color: white;
   }
 
   footer{
@@ -123,19 +124,60 @@
     flex-direction: column;
     align-text: center;
     padding: 5%;
+    color: white
   }
 
-  button {
+  .button {
     background-color: transparent;
     background-repeat: no-repeat;
     border: none;
     cursor: pointer;
     overflow: hidden;
     outline: none;
+    
 }
 
 .container{
   display: flex;
-  flex-direction: row;
-  justify-content: center
+  flex-wrap: wrap;
 }
+
+.box{
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+/*Obtained from: https://stackoverflow.com/questions/45037844/arrange-2-items-per-row-using-flexbox */
+.container > div {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+  /*demo*/
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.htmlImage{
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.htmlTitles{
+  padding: 0px 0 10px 0;
+}
+
+.colorPaletteImage{
+  align-items: center;
+  width: 100%;
+  height: 200px;
+}
+
+/* Obtained from: https://blog.hubspot.com/website/remove-underline-from-links-css */
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
