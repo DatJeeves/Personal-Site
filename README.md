@@ -2,7 +2,7 @@
  
  Jeevan Acharya
 
- Link to site: 
+ Link to site: https://jeevanportfolio.netlify.app/
 
 # Resources Used
 * Canvas CSS resources
